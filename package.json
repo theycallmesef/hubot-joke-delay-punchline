@@ -1,7 +1,7 @@
 {
   "name": "hubot-joke-delay-punchline",
   "description": "tells a joke with a delay to the punchline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "rugulls <rugulls@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, joke",
