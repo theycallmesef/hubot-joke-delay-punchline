@@ -14,14 +14,15 @@ Environment Variables:
 
 */
 
-var jokedata = require('../lib/jokes.json');
+var jokejson = require('../lib/jokes.json');
 var jokesdataurl = process.env.HUBOT_JOKES_URL;
 
 module.exports = (robot) => {
 
   // ---- Return json from web request ----
   // "url" is passed in, "callback" is the return
-  function GetFormSubData(url, callback) {
+  function GetUrlData(url, callback) {
+    let jdata
     robot.logger.info("joke-delay-punchline: Gathering json data from form api");
     // Get json of form submissions
     robot.http(url)
@@ -32,9 +33,11 @@ module.exports = (robot) => {
         robot.logger.error(`joke-delay-punchline: Error connecting: ${res}`);
         return;
       } else {
-        let jdata = JSON.parse(body);
-        if (jdata.error) {
-          robot.logger.error(`joke-delay-punchline: Error retreving data: ${jdata.error}`);
+        try {
+          jdata = JSON.parse(body);
+        } catch(e) {
+          robot.logger.error(`joke-delay-punchline: Error retreving data: ${e}`);
+          return;
         };
         // send results to return function
         robot.logger.info(`joke-delay-punchline: Data retrived from API`);
@@ -63,11 +66,11 @@ module.exports = (robot) => {
     msg.finish();
     let rjoke, message
     if (jokesdataurl) {
-      GetFormSubData(jokesdataurl, (jokedata) => {
-        TellJoke(msg, jokedata);
+      GetUrlData(jokesdataurl, (jokedurlata) => {
+        TellJoke(msg, jokedurlata);
       });
     } else {
-      TellJoke(msg, jokedata);
+      TellJoke(msg, jokejson);
     };
   });
 };

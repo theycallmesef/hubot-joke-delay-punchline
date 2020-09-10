@@ -42,3 +42,5 @@ Hubot:    What do you call a bear with no teeth?
 Hubot:    A Gummy Bear :)
 
 ## NPM Module
+
+[https://www.npmjs.com/package/hubot-joke-delay-punchline](https://www.npmjs.com/package/hubot-joke-delay-punchline)
