@@ -1,0 +1,156 @@
+{
+  "acknowledge": [
+    "Ok, I got one for you",
+    "Lol, ok I'll try...",
+    "Sure! I know a few",
+    "Have you heard this one?"
+  ],
+  "laugh": [
+    ":laughing:",
+    ":rolling_on_the_floor_laughing:",
+    ":smiley:",
+    ":grin:"
+  ],
+  "jokes": [
+    {
+      "joke": "How does a surfer cut down a tree?",
+      "punchline": "With a suh, dude"
+    },
+    {
+      "joke": "What do you call a bear with no teeth?",
+      "punchline": "A Gummy Bear"
+    },
+    {
+      "joke": "What do you call an Aligator in a vet?",
+      "punchline": "An Investigator"
+    },
+    {
+      "joke": "Why can't you give Elsa a balloon?",
+      "punchline": "Because she will just let it go"
+    },
+    {
+      "joke": "Why did the teddy bear say no to dessert?",
+      "punchline": "Because she was stuffed."
+    },
+    {
+      "joke": "What did one plate say to the other plate?",
+      "punchline": "Dinner is on me!"
+    },
+    {
+      "joke": "What did the left eye say to the right eye?",
+      "punchline": "Between us, something smells!"
+    },
+    {
+      "joke": "How do you know a joke is a dad joke?",
+      "punchline": "The punchline is a parent"
+    },
+    {
+      "joke": "What do you call a droid that takes the long way around?",
+      "punchline": "R2 detour"
+    },
+    {
+      "joke": "How do you stop an astronaut’s baby from crying?",
+      "punchline": "You rocket!"
+    },
+    {
+      "joke": "How do you make a lemon drop?",
+      "punchline": "Just let it fall."
+    },
+    {
+      "joke": "What did the limestone say to the geologist?",
+      "punchline": "Don’t take me for granite!"
+    },
+    {
+      "joke": "Why does a seagull fly over the sea?",
+      "punchline": "Because if it flew over the bay, it would be a baygull."
+    },
+    {
+      "joke": "Why did the cookie go to the hospital?",
+      "punchline": "Because he felt crummy."
+    },
+    {
+      "joke": "How much does it cost a pirate to get his ears pierced?",
+      "punchline": "About a buck an ear."
+    },
+    {
+      "joke": "What building in New York has the most stories?",
+      "punchline": "The public library!"
+    },
+    {
+      "joke": "How does the moon cut his hair?",
+      "punchline": "Eclipse it."
+    },
+    {
+      "joke": "How do you get a squirrel to like you?",
+      "punchline": "Act like a nut!"
+    },
+    {
+      "joke": "How does a scientist freshen her breath?",
+      "punchline": "With experi-mints!"
+    },
+    {
+      "joke": "What did the banana say to the dog?",
+      "punchline": "Nothing. Bananas can’t talk."
+    },
+    {
+      "joke": "What do you call a boomerang that won’t come back?",
+      "punchline": "A stick."
+    },
+    {
+      "joke": "Why did the dinosaur cross the road?",
+      "punchline": "Because the chicken wasn’t born yet."
+    },
+    {
+      "joke": "What do you call a dog magician?",
+      "punchline": "A labracadabrador."
+    },
+    {
+      "joke": "Why couldn't the pony sing a lullaby?",
+      "punchline": "She was a little hoarse."
+    },
+    {
+      "joke": "What do you call a fake noodle?",
+      "punchline": "An impasta."
+    },
+    {
+      "joke": "What kind of award did the dentist receive?",
+      "punchline": "A little plaque."
+    },
+    {
+      "joke": "What did the big flower say to the little flower?",
+      "punchline": "Hi, bud!"
+    },
+    {
+      "joke": "Why couldn't the astronaut book a hotel on the moon?",
+      "punchline": "Because it was full."
+    },
+    {
+      "joke": "What do you call an old snowman?",
+      "punchline": "Water."
+    },
+    {
+      "joke": "How do you throw a party in space?",
+      "punchline": "You planet."
+    },
+    {
+      "joke": "Why are robots never afraid?",
+      "punchline": "We have nerves of steel."
+    },
+    {
+      "joke": "Why did the cabbage win the race?",
+      "punchline": "Because it was a-head."
+    },
+    {
+      "joke": "Why was the broom running late?",
+      "punchline": "It over-swept."
+    },
+    {
+      "joke": "What part of the fish weighs the most?",
+      "punchline": "The scales."
+    },
+    {
+      "joke": "Why did the kid cross the playground?",
+      "punchline": "To get to the other slide"
+    }
+  ]
+}

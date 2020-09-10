@@ -1,14 +1,18 @@
 # hubot-joke-delay-punchline
 
-tells a joke with a delay to the punchline
+Tells a joke with a delay to the punchline
 
-See [`src/joke-delay-punchline.coffee`](src/joke-delay-punchline.coffee) for full documentation.
+See [`src/joke-delay-punchline.js`](src/joke-delay-punchline.js) for full documentation.
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-joke-delay-punchline --save`
+```
+npm install hubot-joke-delay-punchline --save
+```
+
+Or add `"hubot-standup-formstack-cron": ""` to your package.json dependencies
 
 Then add **hubot-joke-delay-punchline** to your `external-scripts.json`:
 
@@ -18,13 +22,23 @@ Then add **hubot-joke-delay-punchline** to your `external-scripts.json`:
 ]
 ```
 
-## Sample Interaction
+## Configuration
+A list of jokes is built in and can be modified, located in lib/jokes.json
+Custom jokes can be added to the json file or a url to a json file can be set as
+an environment variable.
 
-```
-user1>> hubot hello
-hubot>> hello!
-```
+#### **Environment Variables:**
+
+| Key Term | Description |
+| HUBOT_JOKES_URL | (Optional) Url to json of jokes |
+
+
+## Sample Interaction:
+
+Leia:     Tell me a joke
+Hubot:    Sure! I know a few
+Hubot:    What do you call a bear with no teeth?
+(wait 6 sec)
+Hubot:    A Gummy Bear :)
 
 ## NPM Module
-
-https://www.npmjs.com/package/hubot-joke-delay-punchline

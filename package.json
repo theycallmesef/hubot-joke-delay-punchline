@@ -1,16 +1,16 @@
 {
   "name": "hubot-joke-delay-punchline",
   "description": "tells a joke with a delay to the punchline",
-  "version": "0.0.0",
-  "author": "Seth D. Rouggly <srouggly@apu.edu>",
+  "version": "1.0.0",
+  "author": "rugulls <rugulls@gmail.com>",
   "license": "MIT",
-  "keywords": "hubot, hubot-scripts",
+  "keywords": "hubot, hubot-scripts, joke",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-joke-delay-punchline.git"
+    "url": "git://github.com/theycallmesef/hubot-joke-delay-punchline.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-joke-delay-punchline/issues"
+    "url": "https://github.com/theycallmesef/hubot-joke-delay-punchline/issues"
   },
   "dependencies": {},
   "peerDependencies": {
