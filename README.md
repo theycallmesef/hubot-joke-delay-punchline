@@ -12,7 +12,7 @@ In hubot project repo, run:
 npm install hubot-joke-delay-punchline --save
 ```
 
-Or add `"hubot-standup-formstack-cron": ""` to your package.json dependencies
+Or add `"hubot-joke-delay-punchline": ""` to your package.json dependencies
 
 Then add **hubot-joke-delay-punchline** to your `external-scripts.json`:
 
