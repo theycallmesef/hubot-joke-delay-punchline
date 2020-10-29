@@ -62,7 +62,7 @@ module.exports = (robot) => {
     }, 6000);
   };
 
-  robot.respond(/\b((tell .*a )|\b((do you )?know (a|any) ))jokes?\b/i, msg => {
+  robot.respond(/\b((tell .*a )|\b((do you )?know (a|any)( \w+)? ))jokes?\b/i, msg => {
     msg.finish();
     let rjoke, message
     if (jokesdataurl) {
