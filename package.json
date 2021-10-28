@@ -1,7 +1,7 @@
 {
   "name": "hubot-joke-delay-punchline",
   "description": "tells a joke with a delay to the punchline",
-  "version": "1.0.6",
+  "version": "1.0.6.1",
   "author": "rugulls <rugulls@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, joke",
@@ -31,7 +31,7 @@
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
     "test": "grunt test"
   }
