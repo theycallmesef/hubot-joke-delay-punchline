@@ -12,10 +12,10 @@ describe 'joke-delay-punchline', ->
   afterEach ->
     @room.destroy()
 
-  it 'responds to hello', ->
-    @room.user.say('alice', '@hubot hello').then =>
+  it 'responds to tell me a joke', ->
+    @room.user.say('alice', '@hubot tell me a joke').then =>
       expect(@room.messages).to.eql [
-        ['alice', '@hubot hello']
+        ['alice', '@hubot tell me a joke']
         ['hubot', '@alice hello!']
       ]
 
